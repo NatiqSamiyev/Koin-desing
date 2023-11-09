@@ -11,21 +11,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    h1{
+      color: #fff;
+      font-family: Poppins;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    
   }
 
-  .top-container h1 {
-    color: #fff;
-    font-family: Poppins;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
+
 
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
 
   nav ul {
