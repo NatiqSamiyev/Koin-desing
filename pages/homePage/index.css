@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+.koin-container {
+  width: 100%;
+  padding: 17px 0px 131px 77px;
+  min-height: 100vh;
+  background: linear-gradient(144deg, #190422 21.1%, #190422 102.96%);
+}
+.koin-container .top-container {
+  padding: 0 82px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.koin-container .top-container h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.koin-container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.koin-container nav ul {
+  display: flex;
+}
+.koin-container nav ul li {
+  list-style-type: none;
+  margin-left: 60px;
+}
+.koin-container nav ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.koin-container nav button {
+  margin-left: 75px;
+  width: 132px;
+  height: 58px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.koin-container nav button a {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.koin-container .box-container {
+  margin-top: 85px;
+  padding: 0 21px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.koin-container .box-1 {
+  width: 631px;
+}
+.koin-container .box-1 h2 {
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.koin-container .box-1 p {
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158%;
+}
+.koin-container .box-1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 58px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border: none;
+}
+.koin-container .box-1 button a {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.koin-container .box-1 button img {
+  width: 33px;
+  height: 33px;
+  margin-left: 4px;
+}
+.koin-container .box2 img {
+  width: 590px;
+  height: 677px;
+}/*# sourceMappingURL=index.css.map */
