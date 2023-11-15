@@ -248,9 +248,9 @@ $color: #190422;
   }
 
   .about-container {
+    padding: 0 80px 107px 145px;
     min-height: 100vh;
     background: #fff;
-    position: relative;
 
     .top-container {
       padding: 51px 109px 47px 109px;
@@ -260,6 +260,7 @@ $color: #190422;
      
       position: absolute;
       top: -119px;
+      /* width: 100%; */
       width: 83%;
       left: 50%;
       transform: translateX(-50%);
@@ -289,7 +290,7 @@ $color: #190422;
     }
 
     .box-container {
-      padding: 257px 97px 107px 97px;
+      margin-top: 138px;
       display: flex;
       justify-content: space-between;
       align-items: center;

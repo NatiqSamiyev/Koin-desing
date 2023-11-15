@@ -248,6 +248,7 @@ $color: #190422;
   }
 
   .about-container {
+    /* padding: 0 80px 107px 145px; */
     min-height: 100vh;
     background: #fff;
     position: relative;
@@ -289,7 +290,7 @@ $color: #190422;
     }
 
     .box-container {
-      padding: 257px 97px 107px 97px;
+    padding: 257px 97px 107px 97px;
       display: flex;
       justify-content: space-between;
       align-items: center;
