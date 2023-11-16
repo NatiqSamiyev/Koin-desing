@@ -126,8 +126,7 @@
   height: 677px;
 }
 @media screen and (max-width: 1024px) {
-  .koin-container .home-container {
-    width: 834px;
+  .koin-container .home-container .home-container {
     padding: 19px 11px 100px 37px;
     background: #190422;
   }
@@ -169,8 +168,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .koin-container .home-container {
-    width: 390px;
+  .koin-container .home-container .home-container {
     padding: 19px 16px 76px 15px;
     background-color: #190422;
   }
@@ -278,4 +276,4 @@
 .koin-container .about-container .box-container .text-container button img {
   width: 33px;
   height: 33px;
-}/*# sourceMappingURL=index_20231115115014.css.map */
+}/*# sourceMappingURL=index_20231115115634.css.map */

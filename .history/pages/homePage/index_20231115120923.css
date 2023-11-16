@@ -7,6 +7,16 @@
   min-height: 100vh;
   background: #190422;
 }
+@media screen and (max-width: 1024px) {
+  .koin-container .home-container {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .koin-container .home-container {
+    padding: 20px;
+  }
+}
 .koin-container .home-container .top-container {
   padding: 0 82px 0 0;
   width: 100%;
@@ -21,6 +31,13 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+@media screen and (max-width: 1024px) {
+  .koin-container .home-container .top-container h1 {
+    font-size: 40.24px;
+    font-style: normal;
+    line-height: 50px;
+  }
 }
 .koin-container .home-container .top-container span {
   color: #bc8afc;
@@ -121,16 +138,37 @@
   height: 33px;
   margin-left: 4px;
 }
-.koin-container .home-container .box-container .box2 img {
+@media screen and (max-width: 1024px) {
+  .koin-container .home-container .box-container .box-1 button img {
+    width: 396px;
+    height: 454.266px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .koin-container .home-container .box-container .box-1 button img {
+    margin-top: 36px;
+    width: 336.255px;
+    height: 381.415px;
+  }
+}
+.koin-container .home-container .box-container .box-2 img {
   width: 590px;
   height: 677px;
 }
 @media screen and (max-width: 1024px) {
-  .koin-container .home-container {
-    width: 834px;
-    padding: 19px 11px 100px 37px;
-    background: #190422;
+  .koin-container .home-container .box-container .box-2 img {
+    width: 396px;
+    height: 454.266px;
   }
+}
+@media screen and (max-width: 768px) {
+  .koin-container .home-container .box-container .box-2 img {
+    margin-top: 36px;
+    width: 336.255px;
+    height: 381.415px;
+  }
+}
+@media screen and (max-width: 1024px) {
   .koin-container .home-container .top-container {
     padding: 0 40px 0 0;
   }
@@ -163,14 +201,13 @@
     font-size: 48px;
     width: 370px;
   }
-  .koin-container .home-container .box-container .box2 img {
+  .koin-container .home-container .box-container .box-2 img {
     width: 396px;
     height: 454.266px;
   }
 }
 @media screen and (max-width: 768px) {
-  .koin-container .home-container {
-    width: 390px;
+  .koin-container .home-container .home-container {
     padding: 19px 16px 76px 15px;
     background-color: #190422;
   }
@@ -192,8 +229,10 @@
   .koin-container .home-container .box-container .box-1 p {
     margin-bottom: 24px;
   }
-  .koin-container .home-container .box-container .box2 img {
+  .koin-container .home-container .box-container .box-2 img {
     margin-top: 36px;
+    width: 336.255px;
+    height: 381.415px;
   }
 }
 .koin-container .about-container {
@@ -278,4 +317,4 @@
 .koin-container .about-container .box-container .text-container button img {
   width: 33px;
   height: 33px;
-}/*# sourceMappingURL=index_20231115115014.css.map */
+}/*# sourceMappingURL=index_20231115120923.css.map */

@@ -126,8 +126,7 @@
   height: 677px;
 }
 @media screen and (max-width: 1024px) {
-  .koin-container .home-container {
-    width: 834px;
+  .koin-container .home-container .home-container {
     padding: 19px 11px 100px 37px;
     background: #190422;
   }
@@ -163,14 +162,13 @@
     font-size: 48px;
     width: 370px;
   }
-  .koin-container .home-container .box-container .box2 img {
+  .koin-container .home-container .box-container .box-2 img {
     width: 396px;
     height: 454.266px;
   }
 }
 @media screen and (max-width: 768px) {
-  .koin-container .home-container {
-    width: 390px;
+  .koin-container .home-container .home-container {
     padding: 19px 16px 76px 15px;
     background-color: #190422;
   }
@@ -194,6 +192,8 @@
   }
   .koin-container .home-container .box-container .box2 img {
     margin-top: 36px;
+    width: 336.255px;
+    height: 381.415px;
   }
 }
 .koin-container .about-container {
@@ -278,4 +278,4 @@
 .koin-container .about-container .box-container .text-container button img {
   width: 33px;
   height: 33px;
-}/*# sourceMappingURL=index_20231115115014.css.map */
+}/*# sourceMappingURL=index_20231115120140.css.map */
